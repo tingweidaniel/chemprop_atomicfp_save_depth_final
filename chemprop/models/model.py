@@ -336,8 +336,6 @@ class TimeDistributed_wrapper(nn.Module):
 
         # Squash samples and timesteps into a single axis
 
-        #print('--------------------- in TimeDistributed_wrapper ---------------------')  # wei, check
-
         x_reshape = x.contiguous().view(-1, x.size(-1))  # (samples * timesteps, input_size)
 
         y = self.module(x_reshape)
@@ -349,15 +347,4 @@ class TimeDistributed_wrapper(nn.Module):
             y = y.view(-1, x.size(1), y.size(-1))  # (timesteps, samples, output_size)
 
         return y
-
-
-'''
-class FinalAdd(nn.Module):
-    def __init__(self):
-        super(FinalAdd, self).__init__()
-
-    def forward(self, x, y, z):
-        output = x + y + z
-        return output
-'''
 
