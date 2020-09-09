@@ -1,0 +1,326 @@
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 7.165492 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 5.719801 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 3.046511 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 2.900018 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 3.950429 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 3.657566 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 3.270888 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Model 0 best validation rmse = 2.320100 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 3.220408 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 3.742560 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Model 0 best validation rmse = 5.444263 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 5.556070 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 12.668108 on epoch 0
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 22.112236 on epoch 1
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 23.414504 on epoch 1
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 24.367807 on epoch 1
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 19.398838 on epoch 1
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 14.673769 on epoch 3
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 14.923466 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 15.106606 on epoch 3
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 15.410866 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 15.171492 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 15.406116 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 14.789955 on epoch 3
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 14.782530 on epoch 3
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Model 0 best validation rmse = 15.095848 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Model 0 best validation rmse = 15.938616 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 15.699862 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 14.737658 on epoch 3
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 17.919962 on epoch 6
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 16.658504 on epoch 3
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation rmse = 16.054749 on epoch 2
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
+Fold 0
+Model 0 best validation rmse = 14.889881 on epoch 3
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan
