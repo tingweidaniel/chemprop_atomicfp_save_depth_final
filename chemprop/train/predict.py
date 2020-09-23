@@ -58,7 +58,7 @@ def predict(model: nn.Module,
         each_fp = model.output_fp.tolist()
         #print('each_fp:', each_fp)
         remain = num_iters % batch_size
-        if len(each_fp)/5 == remain:  # /5 for d0, d1, d2, final, mol
+        if len(each_fp)/5 == remain:  # wei, /5 for d0, d1, d2, final, mol
             check_fp_d0.extend(each_fp[:remain])
             check_fp_d1.extend(each_fp[remain:remain*2])
             check_fp_d2.extend(each_fp[remain*2:remain*3])
