@@ -121,12 +121,10 @@ class MPNEncoder(nn.Module):  # for atomic_vecs_d2, atomic_vecs_final, mol_vecs
             padding = padding.cuda()
         padding[:, :f_atoms.size()[1]] = f_atoms
         a_input = padding
-        #print('mol_graph:', mol_graph.smiles_batch)
-        #print('a_input', a_input)
-        #print('a_input.size()', a_input.size())
         atom_hiddens = self.act_func(self.W_o(a_input))
         atom_hiddens = self.dropout_layer(atom_hiddens)  # num_atoms x hidden
         save_depth.append(atom_hiddens)
+        #print('mol_graph:', mol_graph.smiles_batch)
 
 
         # Message passing
@@ -192,11 +190,6 @@ class MPNEncoder(nn.Module):  # for atomic_vecs_d2, atomic_vecs_final, mol_vecs
             if a_size == 0:
                 mol_vecs.append(self.cached_zero_vector)
             else:
-                #print('save_depth[0].size()', save_depth[0].size())
-                #print('save_depth[1].size()', save_depth[1].size())
-                #print('save_depth[-1].size()', save_depth[2].size())
-                #print('len save_depth', len(save_depth))
-
                 cur_hiddens_d0 = save_depth[0].narrow(0, a_start, a_size)
                 cur_hiddens_d1 = save_depth[1].narrow(0, a_start, a_size)
                 cur_hiddens_d2 = save_depth[2].narrow(0, a_start, a_size)
@@ -278,7 +271,6 @@ class MPN(nn.Module):
             batch = mol2graph(batch, self.args)
 
         output_d0, output_d1, output_d2, output_final, output_mol = self.encoder.forward(batch, features_batch)
-        #print('MPN_atomic len', len(self.encoder.forward(batch, features_batch)))
         
         return output_d0, output_d1, output_d2, output_final, output_mol
 

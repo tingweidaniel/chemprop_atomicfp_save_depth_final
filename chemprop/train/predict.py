@@ -75,13 +75,5 @@ def predict(model: nn.Module,
     check_fp.append(check_fp_d2)
     check_fp.append(check_fp_final)
     check_fp.append(check_fp_mol)
-    
-    #print('check_fp_d0:', check_fp_d0)
-    #print('check_fp_d1:', check_fp_d1)
-    #print('check_fp_d2:', check_fp_d2)
-    #print('check_fp_final:', check_fp_final)
-    #print('check_fp_mol:', check_fp_mol)
-    #print('preds:', preds)
-    #print('check_fp:', check_fp)
 
     return preds, check_fp

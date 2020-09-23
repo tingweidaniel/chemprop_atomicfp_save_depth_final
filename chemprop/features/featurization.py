@@ -28,33 +28,6 @@ ATOM_FEATURES = {
     'chiral_tag': [0, 1, 2, 3],
     'num_Hs': [0, 1, 2, 3, 4],
 }
-'''
-ATOM_FEATURES = {
-    'atomic_num': list(range(MAX_ATOMIC_NUM)),
-    'degree': [0, 1, 2, 3, 4, 5],
-    'chiral_tag': [0, 1, 2, 3],
-    'num_Hs': [0, 1, 2, 3, 4],
-}'''
-BOND_FEATURES = {
-    'bond_type': [
-        Chem.rdchem.BondType.UNSPECIFIED,
-        Chem.rdchem.BondType.SINGLE,
-        Chem.rdchem.BondType.DOUBLE,
-        Chem.rdchem.BondType.TRIPLE,
-        Chem.rdchem.BondType.QUADRUPLE,
-        Chem.rdchem.BondType.HEXTUPLE,
-        Chem.rdchem.BondType.ONEANDAHALF,
-        Chem.rdchem.BondType.TWOANDAHALF,
-        Chem.rdchem.BondType.THREEANDAHALF,
-        Chem.rdchem.BondType.FOURANDAHALF,
-        Chem.rdchem.BondType.FIVEANDAHALF,
-        Chem.rdchem.BondType.AROMATIC,
-        Chem.rdchem.BondType.IONIC,
-        Chem.rdchem.BondType.HYDROGEN,
-        Chem.rdchem.BondType.THREECENTER,
-        Chem.rdchem.BondType.OTHER
-    ]
-}
 
 
 # Distance feature sizes
