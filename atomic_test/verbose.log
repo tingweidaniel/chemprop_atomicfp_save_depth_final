@@ -1,0 +1,190 @@
+Fold 0
+{'AM_dim0': False,
+ 'AM_dim1': False,
+ 'activation': 'ReLU',
+ 'atom_messages': False,
+ 'batch_size': 1,
+ 'bias': False,
+ 'checkpoint_dir': None,
+ 'checkpoint_path': None,
+ 'checkpoint_paths': None,
+ 'config_path': None,
+ 'crossval_index_dir': None,
+ 'crossval_index_file': None,
+ 'cuda': False,
+ 'data_path': 'test.csv',
+ 'dataset_type': 'regression',
+ 'depth': 3,
+ 'dropout': 0.0,
+ 'ensemble_size': 1,
+ 'epochs': 1,
+ 'features_generator': None,
+ 'features_only': False,
+ 'features_path': None,
+ 'features_scaling': False,
+ 'ffn_hidden_size': 300,
+ 'ffn_num_layers': 2,
+ 'final_lr': 5e-05,
+ 'folds_file': None,
+ 'gpu': None,
+ 'hidden_size': 300,
+ 'init_lr': 0.0001,
+ 'inter_mediate': False,
+ 'log_frequency': 100,
+ 'max_data_size': None,
+ 'max_lr': 0.001,
+ 'metric': 'rmse',
+ 'minimize_score': True,
+ 'multiclass_num_classes': 3,
+ 'no_cache': False,
+ 'num_folds': 1,
+ 'num_lrs': 1,
+ 'quiet': False,
+ 'save_dir': 'atomic_test/fold_0',
+ 'save_smiles_splits': False,
+ 'seed': 0,
+ 'separate_test_features_path': None,
+ 'separate_test_path': None,
+ 'separate_val_features_path': None,
+ 'separate_val_path': None,
+ 'show_individual_scores': False,
+ 'split_sizes': [0.5, 0.5, 0.0],
+ 'split_type': 'random',
+ 'test': False,
+ 'test_fold_index': None,
+ 'undirected': False,
+ 'use_compound_names': False,
+ 'use_input_features': None,
+ 'val_fold_index': None,
+ 'warmup_epochs': 2.0,
+ 'write_true_val': False}
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+Total size = 3 | train size = 1 | val size = 2 | test size = 0
+Fitting scaler
+Building model 0
+MoleculeModel(
+  (encoder): MPN(
+    (encoder): MPNEncoder(
+      (dropout_layer): Dropout(p=0.0)
+      (act_func): ReLU()
+      (W_i): Linear(in_features=145, out_features=300, bias=False)
+      (W_h): Linear(in_features=300, out_features=300, bias=False)
+      (W_o): Linear(in_features=428, out_features=300, bias=True)
+    )
+  )
+  (ffn_d0): Sequential(
+    (0): TimeDistributed_wrapper(
+      (module): Dropout(p=0.0)
+    )
+    (1): TimeDistributed_wrapper(
+      (module): Linear(in_features=300, out_features=300, bias=True)
+    )
+    (2): TimeDistributed_wrapper(
+      (module): ReLU()
+    )
+    (3): TimeDistributed_wrapper(
+      (module): Dropout(p=0.0)
+    )
+    (4): TimeDistributed_wrapper(
+      (module): Linear(in_features=300, out_features=1, bias=True)
+    )
+    (5): LambdaLayer()
+  )
+  (ffn_d1): Sequential(
+    (0): TimeDistributed_wrapper(
+      (module): Dropout(p=0.0)
+    )
+    (1): TimeDistributed_wrapper(
+      (module): Linear(in_features=300, out_features=300, bias=True)
+    )
+    (2): TimeDistributed_wrapper(
+      (module): ReLU()
+    )
+    (3): TimeDistributed_wrapper(
+      (module): Dropout(p=0.0)
+    )
+    (4): TimeDistributed_wrapper(
+      (module): Linear(in_features=300, out_features=1, bias=True)
+    )
+    (5): LambdaLayer()
+  )
+  (ffn_d2): Sequential(
+    (0): TimeDistributed_wrapper(
+      (module): Dropout(p=0.0)
+    )
+    (1): TimeDistributed_wrapper(
+      (module): Linear(in_features=300, out_features=300, bias=True)
+    )
+    (2): TimeDistributed_wrapper(
+      (module): ReLU()
+    )
+    (3): TimeDistributed_wrapper(
+      (module): Dropout(p=0.0)
+    )
+    (4): TimeDistributed_wrapper(
+      (module): Linear(in_features=300, out_features=1, bias=True)
+    )
+    (5): LambdaLayer()
+  )
+  (ffn_final): Sequential(
+    (0): TimeDistributed_wrapper(
+      (module): Dropout(p=0.0)
+    )
+    (1): TimeDistributed_wrapper(
+      (module): Linear(in_features=300, out_features=300, bias=True)
+    )
+    (2): TimeDistributed_wrapper(
+      (module): ReLU()
+    )
+    (3): TimeDistributed_wrapper(
+      (module): Dropout(p=0.0)
+    )
+    (4): TimeDistributed_wrapper(
+      (module): Linear(in_features=300, out_features=1, bias=True)
+    )
+    (5): LambdaLayer()
+  )
+  (ffn_mol): Sequential(
+    (0): Dropout(p=0.0)
+    (1): Linear(in_features=300, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 715,205
+Epoch 0
+Validation rmse = 20.057468
+Model 0 best validation rmse = 20.057468 on epoch 0
+Loading pretrained parameter "encoder.encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.encoder.W_i.weight".
+Loading pretrained parameter "encoder.encoder.W_h.weight".
+Loading pretrained parameter "encoder.encoder.W_o.weight".
+Loading pretrained parameter "encoder.encoder.W_o.bias".
+Loading pretrained parameter "ffn_d0.1.module.weight".
+Loading pretrained parameter "ffn_d0.1.module.bias".
+Loading pretrained parameter "ffn_d0.4.module.weight".
+Loading pretrained parameter "ffn_d0.4.module.bias".
+Loading pretrained parameter "ffn_d1.1.module.weight".
+Loading pretrained parameter "ffn_d1.1.module.bias".
+Loading pretrained parameter "ffn_d1.4.module.weight".
+Loading pretrained parameter "ffn_d1.4.module.bias".
+Loading pretrained parameter "ffn_d2.1.module.weight".
+Loading pretrained parameter "ffn_d2.1.module.bias".
+Loading pretrained parameter "ffn_d2.4.module.weight".
+Loading pretrained parameter "ffn_d2.4.module.bias".
+Loading pretrained parameter "ffn_final.1.module.weight".
+Loading pretrained parameter "ffn_final.1.module.bias".
+Loading pretrained parameter "ffn_final.4.module.weight".
+Loading pretrained parameter "ffn_final.4.module.bias".
+Loading pretrained parameter "ffn_mol.1.weight".
+Loading pretrained parameter "ffn_mol.1.bias".
+Loading pretrained parameter "ffn_mol.4.weight".
+Loading pretrained parameter "ffn_mol.4.bias".
+Model 0 test rmse = nan
+Ensemble test rmse = nan
+1-fold cross validation
+Seed 0 ==> test rmse = nan
+Overall test rmse = nan +/- nan

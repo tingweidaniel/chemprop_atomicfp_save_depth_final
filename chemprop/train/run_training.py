@@ -123,9 +123,11 @@ def run_training(args: Namespace, logger: Logger = None) -> List[float]:
         train_smiles, train_targets = train_data.smiles(), train_data.targets()
         
         # part of normalization
-        #scaler = StandardScaler().fit(train_targets)
-        #scaled_targets = scaler.transform(train_targets).tolist()
-        
+        '''
+        scaler = StandardScaler().fit(train_targets)
+        scaled_targets = scaler.transform(train_targets).tolist()
+        '''
+
         # part of unnormalization
         scaler = None
         scaled_targets = train_targets
